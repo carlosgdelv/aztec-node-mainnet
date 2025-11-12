@@ -1,4 +1,4 @@
-# Aztec-node-Mainnet
+# Aztec-Node-Mainnet
 
 # 🧰 Aztec Node Setup — Testnet 2.0.2
 
