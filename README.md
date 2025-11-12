@@ -322,3 +322,31 @@ This command forcefully deletes the entire Aztec alpha-testnet data directory an
 rm -rf ~/.aztec/alpha-testnet/data/
 ```
 Re-run Node
+
+
+
+___
+
+## 🧰 Tooling Installation
+
+Install Foundry (a smart contract development toolkit)
+
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+source ~/.bashrc
+foundryup
+```
+Clone the Aztec repository
+```bash
+git clone https://github.com/AztecProtocol/aztec-packages.git
+cd aztec-packages
+```
+Install Yarn (a JavaScript package manager)
+
+```bash
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt install yarn
+yarn -v
+```
